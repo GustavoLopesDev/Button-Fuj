@@ -1,0 +1,52 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: pink;
+  height: 9vh;
+  width: auto;
+}
+
+
+main#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section.section{
+  background-color: #ffff;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ height: 65vh;
+ gap: 1rem;
+ width: 60vh;
+ border-radius: 2rem;
+}
+div h1.title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+}
+
+button.button{
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.4rem 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: pink;
+  border-radius: 0.5rem;
+  border: solid 1px black;
+}
+#sim{
+  position: absolute;
+}
+
+#nao{
+  margin-left: 8rem;
+}
